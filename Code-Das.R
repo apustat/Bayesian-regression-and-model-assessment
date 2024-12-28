@@ -5,7 +5,7 @@ library(pgdraw)
 library(BayesLogit)
 library(truncnorm) #for Truncated normal sample 
 library(MASS) # for Multivariate normal sample
-setwd("C:/Users/apust/Desktop/Bayesian methods/Project")
+setwd("C:/Users/.../Project")
 dat=read.csv("brain_stroke.csv", header=TRUE)
 summary(dat) 
 str(dat) 
